@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097850298721",
+    "project_id": "humanresource-858cd",
+    "storage_bucket": "humanresource-858cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097850298721:android:5713f849f650b7e6272520",
+        "android_client_info": {
+          "package_name": "com.example.hrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097850298721-8229h7smfo9p41q264dj53rebn4feofq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrapp",
+            "certificate_hash": "dfc84b86564d1f472b510680476c20c428a47f23"
+          }
+        },
+        {
+          "client_id": "1097850298721-0epo7ell5l1tna2jt6il807qavrjv6i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsnY-CPiSbZHRR1qJHeGlzfYYR0c-0hfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097850298721-0epo7ell5l1tna2jt6il807qavrjv6i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

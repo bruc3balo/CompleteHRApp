@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/roleGroup"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="Admin"
+            android:id="@+id/adminRadio"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="Employee"
+            android:id="@+id/employeeRadio"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Save"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/changeRoleButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Cancel"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/cancel_role_button"/>
+
+
+</LinearLayout>

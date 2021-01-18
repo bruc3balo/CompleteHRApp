@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hrapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".admin.timetable.NewTimelineActivity"></activity>
+        <activity android:name=".admin.timetable.TimetableActivity" />
+        <activity android:name=".admin.applications.ViewJobApplications" />
+        <activity android:name=".admin.applications.NewApplicationPosition" />
+        <activity android:name=".admin.advances.AdvanceViewActivity" />
+        <activity android:name=".admin.advances.AdvancesActivity" />
+        <activity android:name=".employees.appAvailabilities.JobApplicationActivity" />
+        <activity android:name=".admin.userManagement.ShowUserInfo" />
+        <activity android:name=".admin.userManagement.NewUser" />
+        <activity android:name=".employees.updates.NewTicketActivity" />
+        <activity android:name=".admin.updates.NewUpdate" />
+        <activity android:name=".admin.userManagement.UserManagement" />
+        <activity android:name=".admin.updates.AdminUpdates" />
+        <activity android:name=".admin.tickets.AdminTickets" />
+        <activity android:name=".admin.kpi.AdminKPI" />
+        <activity android:name=".admin.applications.AdminApplications" />
+        <activity android:name=".employees.updates.UpdatesActivity" />
+        <activity android:name=".employees.timetable.EmployeeTimetable" />
+        <activity android:name=".employees.profile.EmployeeProfile" />
+        <activity android:name=".employees.leave.LeaveApplication" />
+        <activity android:name=".employees.appAvailabilities.ApplicationAvailabilities" />
+        <activity android:name=".employees.advance.EmployeeAdvances" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".admin.AdminPannel" />
+        <activity android:name=".employees.MainActivity" />
+    </application>
+
+</manifest>
